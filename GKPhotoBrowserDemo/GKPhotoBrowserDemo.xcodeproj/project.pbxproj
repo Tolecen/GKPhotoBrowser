@@ -819,7 +819,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JWMR39G949;
+				DEVELOPMENT_TEAM = 4225KQ7WC5;
 				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = GKPhotoBrowserDemo/PrefixHeader.pch;
@@ -827,7 +827,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = GKPhotoBrowser;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.quintgao.browser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.quintgao.browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -846,7 +846,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JWMR39G949;
+				DEVELOPMENT_TEAM = 4225KQ7WC5;
 				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_PREFIX_HEADER = GKPhotoBrowserDemo/PrefixHeader.pch;
@@ -854,7 +854,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = GKPhotoBrowser;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.quintgao.browser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.quintgao.browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

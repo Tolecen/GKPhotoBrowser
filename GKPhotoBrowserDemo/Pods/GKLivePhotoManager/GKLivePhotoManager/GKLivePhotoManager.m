@@ -104,6 +104,15 @@ static GKLivePhotoManager *_manager = nil;
     
     [[PHImageManager defaultManager] requestLivePhotoForAsset:asset targetSize:targetSize contentMode:PHImageContentModeAspectFill options:options resultHandler:^(PHLivePhoto * _Nullable livePhoto, NSDictionary * _Nullable info) {
         dispatch_async(dispatch_get_main_queue(), ^{
+            
+            NSNumber * deGradedn = info[PHImageResultIsDegradedKey];
+            BOOL deGraded = NO;
+            if (deGradedn != nil) {
+                deGraded = [deGradedn boolValue];
+            }
+            if (deGraded) {
+                return;
+            }
             if (livePhoto) {
                 !completion ?: completion(livePhoto, nil);
             }else {
